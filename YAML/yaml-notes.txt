@@ -1,0 +1,25 @@
+YAML --> YAML ain't a Markup Language
+
+-> YAML is a Data Serialisation Language.
+-> YAML is a data format which is used in various applications to store data and exchange data.
+-> YAML is human readable.
+
+
+Data Serialisation:
+The process of conversion of complex data structures of a programming language, objects into a human readable data format(JSON, XML, YAML)  that can be easily stored, transferred over a network and reconstructed.
+-> Example : Conversion of Python Dictionary into YAML.
+
+
+Deserialisation:
+The process of conversion of data formats back into complex data structures.
+-> Reverse of Data Serialisation.
+-> Helps in working with data in programming languages.
+
+
+Benefits : 
+-> Simple and easy to read.
+-> Follows Indentation.
+-> Easily convertable to XML & JSON.
+-> Most programming languages use YAML.
+-> Parsing is easy.
+-> Powerful in representing complex data.

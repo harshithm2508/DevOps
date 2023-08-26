@@ -23,3 +23,9 @@ Benefits :
 -> Most programming languages use YAML.
 -> Parsing is easy.
 -> Powerful in representing complex data.
+
+
+Comments : 
+--> All the comments in YAML are represented using '#' symbol.
+--> There are no multi-line comments in YAML.
+

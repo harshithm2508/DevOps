@@ -1,0 +1,29 @@
+# To specify a data type you need follow this syntax : !!data-type value
+
+
+# Integer Numbers
+zero : !!int 0
+positiveNumber : !!int 46
+negativeNumber : !!int -46
+binaryNumber : !!int 0b11001
+octalNumber : !!int 045
+hexaDecimalNumber : !!int 225
+
+# Floating Number
+marks : !!float 3.145
+infinit : !!float .inf
+
+Not a Number : .nan             #  Not a Number
+
+
+# Boolean Number
+boolean1 : !!bool No
+boolean2 : !!bool Yes
+
+# String 
+str1 : !!str Hello World
+str2 : !!str Harshith Muthangi
+
+# TimeStamp
+time : !!timestamp 2002-12-14
+time-in-India : !!timestamp 001-12-14t21:59:43.10-05:00               # You need to use ISO format for representing times of your timezone with respect to UTC

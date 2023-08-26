@@ -29,3 +29,13 @@ Comments :
 --> All the comments in YAML are represented using '#' symbol.
 --> There are no multi-line comments in YAML.
 
+Data Types:
+Following are the data types in YAML : 
+    --> Scalar
+    --> Lists
+    --> Dictionary
+
+Specifying Data Types:
+To specify data types, you need to use this syntax :    !!data-type value
+
+

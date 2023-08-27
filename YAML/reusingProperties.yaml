@@ -1,0 +1,30 @@
+likes :
+  fav-fruit : orange
+  fav-car : ferrari
+
+
+person1 : 
+  name : Harshith
+  fav-fruit : orange
+  fav-car : ferrari
+
+person2:
+  name : Jagadeesh
+  fav-fruit : orange
+  fav-car : ferrari
+
+# Here you can see that we are repeating the properties , we can avoid this by using "ANCHORS"
+
+likings : &likes       # (name of the anchor is given by "  &anchor-name   ")
+  fav-fruit : kiwi
+  fav-car : ferrari
+
+
+person3:
+    name : Harshtih
+    <<: *likes        #   (anchors can be accessed by : <<: *anchor-name)
+
+person4 : 
+    name : Jagadeesh
+    <<: *likes
+    fav-fruit : null      #  override the properties by again defining properties
